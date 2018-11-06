@@ -7,7 +7,7 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-client.login('NTA2OTIwODA2MTU3MjU0Njc4.DrpKWA.rjs4S3z4R3MVSEeNvK2PHPBrZ68');
+
 
 
 client.on("guildMemberAdd", member => {
