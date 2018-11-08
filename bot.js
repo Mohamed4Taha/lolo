@@ -7,7 +7,6 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-client.login('NTA5MTE4MTA2NzcwMDc5NzQ1.DsOnEQ.PbytLtIM9XPEZM_xxCyQ-4a4jho');
 
  client.login(process.env.NTA5MTE4MTA2NzcwMDc5NzQ1.DsOnEQ.PbytLtIM9XPEZM_xxCyQ-4a4jho);
  
