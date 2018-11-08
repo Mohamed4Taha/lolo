@@ -11,6 +11,7 @@ client.login('NTA5MTE4MTA2NzcwMDc5NzQ1.DsOnEQ.PbytLtIM9XPEZM_xxCyQ-4a4jho');
 
 const fs = require('fs')
 
+
  const credits = JSON.parse(fs.readFileSync("./creditsCode.json", "utf8"));
 const coolDown = new Set();
 
