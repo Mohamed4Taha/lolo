@@ -13,7 +13,6 @@ client.login('NTA5MTE4MTA2NzcwMDc5NzQ1.DsaIuQ.Hnos_Lo2cJLeVWsNzWhqEiJm4dM');
 
 
 
-
  
 client.on('message', message=> {
     if (message.author.bot) return;
@@ -22,4 +21,7 @@ client.on('message', message=> {
     message.reply(" الرد الي انت بدك البوت يقوله  ");
     }
 });
+
+
+
 
