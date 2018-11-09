@@ -13300,7 +13300,7 @@ const TictacSet = new Set();
 
 client.on('message', async msg => {
     var prefix = "!"
-  if(msg.content.startsWith(prefix + "xo")) {
+  if(msg.content.startsWith(prefix + "*xo")) {
    let args = msg.content.split(' ').slice(1).join(' ');
                         let user;
         if (msg.mentions.users.size) { user = msg.mentions.users.first(); }
