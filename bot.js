@@ -12,16 +12,11 @@ client.login('NTA5MTE4MTA2NzcwMDc5NzQ1.DsaIuQ.Hnos_Lo2cJLeVWsNzWhqEiJm4dM');
 
 
 
-
- 
-client.on('message', message=> {
-    if (message.author.bot) return;
-    if (message.isMentioned(client.user))
-    {
-    message.reply(" الرد الي انت بدك البوت يقوله  ");
+client.on('typingStart', (ch, user) => {
+    if(user.presence.status === 'offline') {
+        ch.send(`${user} تحذير هذا شخص مسوي نفسه اوف لاين ويكتب`)
+        .then(msg => {
+            msg.delete(10000)
+        })
     }
 });
-
-
-
-
